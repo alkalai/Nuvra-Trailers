@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Kumbh Sans' , sans-serif;
+    scroll-behavior: smooth;
+    color:#61c192;
+  }
+
+.nuvra {
+    display: flex;
+    font-size: 60px;
+    text-align: center;
+    background: -webkit-linear-gradient(to right, #12c2e9, #c471ed, #f64f59); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #12c2e9 0%, #c471ed 50%, #f64f59 100%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent; 
+    
+  }
+
+  .background {
+    background: #000000;
+    background: linear-gradient(to right, #161616, #000000);
+    padding: 200px 0;
+}
+body {
+	font-family:  Arial, Helvetica, sans-serif;
+	background-color: #000000;
+	color: #fff;
+	line-height: 1.6;
+	text-align: center;
+}

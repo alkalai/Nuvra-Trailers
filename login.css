@@ -1,0 +1,108 @@
+* {
+  text-align: center;
+  box-sizing: auto;
+  margin: auto;
+  padding: 0;
+  font-family: 'Kumbh Sans' , sans-serif;
+  scroll-behavior: smooth;
+  color:#61c192;
+}
+.nuvra {
+  font-size: 120px;
+  text-align: center;
+  background: -webkit-linear-gradient(to right, #12c2e9, #c471ed, #f64f59); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #12c2e9 0%, #c471ed 50%, #f64f59 100%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent; 
+  line-height: 20px;
+  height: 20px;
+  
+}
+/* Bordered form */
+
+  
+  /* Full-width inputs */
+  input[type=text], input[type=password] {
+    width: 25%;
+    padding: 12px 20px;
+    margin: auto;
+    display: flex;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    background: #DA22FF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #9733EE, #DA22FF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #9733EE, #DA22FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 12px 20px;
+    margin: auto;
+    border: none;
+    cursor: pointer;
+    width: 25%;
+  }
+  
+  /* Add a hover effect for buttons */
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Extra style for the cancel button (red) */
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+  
+  /* Center the avatar image inside this container */
+  .imgcontainer {
+    text-align: center;
+    margin: auto;
+  }
+  
+  /* Avatar image */
+  img.avatar {
+    width: 25%;
+    border-radius: 25%;
+  }
+  
+  /* Add padding to containers */
+  .container {
+    padding: 16px;
+  }
+  
+  /* The "Forgot password" text */
+  span.psw {
+    float: right;
+    padding-top: 16px;
+    
+  }
+  
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+    .cancelbtn {
+      width:100%;
+    }
+  }
+  .background {
+    background: #000000;
+    background: linear-gradient(to right, #161616, #000000);
+    padding: 350px 300px;
+}
+
+span.acct {
+  
+  float: left;
+  padding-top: 16px;
+
+}
+
+.screentitle {
+  font-size: 20px;
+  text-align: center;
+}
