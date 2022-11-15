@@ -1,7 +1,7 @@
 *  {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    margin: auto;
+    padding: 10px;
     font-family: 'Kumbh Sans' , sans-serif;
     scroll-behavior: smooth;
     color:#61c192;
@@ -25,7 +25,6 @@
     background: linear-gradient(to right, #161616, #000000);
     padding: 200px 0;
   text-align: center;
-  background: linear-gradient(rgb(219, 219, 219), rgb(206, 203, 203)) no-repeat center/2px 200%;
 }
 
 
@@ -35,9 +34,9 @@
   align-self: center;
 }
 .tooltip {
-  position: relative;
+  position: static;
   display: inline-block;
-  margin-bottom: 20px;
+  margin-bottom: 0;
   
 }
 
