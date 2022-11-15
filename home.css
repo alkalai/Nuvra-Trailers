@@ -1,4 +1,4 @@
-* {
+*  {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -24,11 +24,47 @@
     background: #000000;
     background: linear-gradient(to right, #161616, #000000);
     padding: 200px 0;
+  text-align: center;
+  background: linear-gradient(rgb(219, 219, 219), rgb(206, 203, 203)) no-repeat center/2px 200%;
+}
+
+
+#bottomtext {
+  color: white;
+  font-size: 20px;
+  align-self: center;
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 20px;
+  
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
 }
 body {
 	font-family:  Arial, Helvetica, sans-serif;
 	background-color: #000000;
 	color: #fff;
 	line-height: 1.6;
-	text-align: center;
+	
 }
