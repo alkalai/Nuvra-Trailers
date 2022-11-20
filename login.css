@@ -42,6 +42,23 @@
     cursor: pointer;
     width: 25%;
   }
+
+  a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+    background: #DA22FF;
+    background: -webkit-linear-gradient(to right, #9733EE, #DA22FF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #9733EE, #DA22FF);
+    padding: 12px 20px;
+    margin: auto;
+    border: none;
+    cursor: pointer;
+    width: 25%;
+}
   
   /* Add a hover effect for buttons */
   button:hover {
@@ -70,7 +87,9 @@
   /* Add padding to containers */
   .container {
     padding: 16px;
-  }
+    font-size: 25px
+    }
+  
   
   /* The "Forgot password" text */
   span.psw {
@@ -103,6 +122,6 @@ span.acct {
 }
 
 .screentitle {
-  font-size: 20px;
+  font-size: 50px;
   text-align: center;
 }
