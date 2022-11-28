@@ -6,12 +6,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <link rel="stylesheet" href="home.css">
 <style>
-    .left { float:left; padding-left: 30px; }
-    .right { float:right; padding-right: 30px;}
-    .nuvra { padding-left: 600px}
-p { color:#000000;
-        font-size: 0px;
-        }
+  
 </style>
 </style>
 <script src=""></script>
@@ -26,124 +21,210 @@ p { color:#000000;
     Nuvra Trailers
     </div>
 
+    <div class="centerize">
+      <button type="button" id="show" style = float:inline-start;>Show More Trailers</button></div>   <div class="centerize">
+        <button type="button" id="hide" style = float:inline-start;>Show Less Trailers</button></div>   
+      
+
     <div class="background"
      style="float:right; width: 100%;">
         TV Series  <!-- Set Div As your requirement -->
         </div>
      
         
-            
-        
-          <div class = "right">
-            <div class="clearfix">
-            <div class="tooltip">
-           <video  width="225" height="150" controls loop>
-            <source src="wolfpack.mp4" type="video/mp4">  
-           </video>
-           <span class="tooltiptext">The Wolf Pack Trailer (Series) 2022</span>
-            </div>
+            <div class = "right">
+          <div class="clearfix">
+                   
+                      <div class="tooltip">
+                       <video  width="215" height="150" controls loop>
+                      <source src="wolfpack.mp4" type="video/mp4">  
+                     </video>
+                     <span class="tooltiptext">WolfPack (Series) Trailer 2022</span>
+                     </div>
+                     
+                     <div class="tooltip">
+                     <video  width="215" height="150" controls loop>
+                    <source src="willow.mp4" type="video/mp4">  
+                   </video>
+                   <span class="tooltiptext">Willow (Series) Trailer 2022</span>
+                     </div>
+                    
+                     <div class="tooltip">
+                    <video  width="215" height="150" controls loop>
+                    <source src="kindred.mp4" type="video/mp4">  
+                   </video>
+                   <span class="tooltiptext">Kindred (Series) Trailer 2022</span>
+                  </div>
+                 
+                  <div class="tooltip">
+                    <video  width="215" height="150" controls loop>
+                    <source src="therecruit.mp4" type="video/mp4">  
+                   </video>
+                   <span class="tooltiptext">The Recruit (Series) Trailer 2022</span>
+                  </div>
+                 
+                  <div class="tooltip">
+                    <video  width="215" height="150" controls loop>
+                    <source src="velma.mp4" type="video/mp4">  
+                   </video>
+                   <span class="tooltiptext">Velma (Series) Trailer 2022</span>
+                  </div>
+                 
+                  <div class="tooltip">
+                    <video  width="215" height="150" controls loop>
+                    <source src="reginald.mp4" type="video/mp4">  
+                   </video>
+                   <span class="tooltiptext">Reginald The Vampire (Series) Trailer 2022</span>
+                  </div>
+                 
+                  <div class="tooltip">
+                    <video  width="215" height="150" controls loop>
+                    <source src="lastofus.mp4" type="video/mp4">  
+                   </video>
+                   <span class="tooltiptext">The Last Of Us (Series) Trailer 2022</span>
+                     </div>
+                     </div>
+                     </div>
+                     
+                    
+                      
+                      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+                    <div class = "right1">
+                      <div class="photos-list">
+                        <ul>
+                    
+                          
+                      <li class= "hidden"> <video  width="215" height="150" controls loop>
+                        <source src="wolfpack.mp4" type="video/mp4">  
+                       </video></li>
+                    <li class="hidden"> <video  width="215" height="150" controls loop>
+                      <source src="kindred.mp4" type="video/mp4">  
+                     </video></li>
+                    <li class="hidden"> <video  width="215" height="150" controls loop>
+                      <source src="lastofus.mp4" type="video/mp4">  
+                     </video></li>
+                    <li class="hidden"> <video  width="215" height="150" controls loop>
+                      <source src="reginald.mp4" type="video/mp4">  
+                     </video></li>
+                    <li class="hidden"> <video  width="215" height="150" controls loop>
+                      <source src="kindred.mp4" type="video/mp4">  
+                     </video></li>
+                    <li class="hidden"> <video  width="215" height="150" controls loop>
+                        <source src="lastofus.mp4" type="video/mp4">  
+                       </video></li>
+                    <li class="hidden"> <video  width="215" height="150" controls loop>
+                      <source src="reginald.mp4" type="video/mp4">  
+                     </video></li>
+                     </ul>
+                     </div>
+                    </div>
+                     
+                  </ul>
+                     
+                     
 
-            <div class="tooltip">
-              <video  width="225" height="150" controls loop>
-               <source src="willow.mp4" type="video/mp4">  
-              </video>
-              <span class="tooltiptext">Willow Trailer (Series) 2022</span>
-               </div>
+<script>
+                
 
-               <div class="tooltip">
-                <video  width="225" height="150" controls loop>
-                 <source src="kindred.mp4" type="video/mp4">  
-                </video>
-                <span class="tooltiptext">Kindred Trailer (Series) 2022</span>
-                 </div>
-
-
-            <div class="tooltip">
-              <video  width="225" height="150" controls loop>
-               <source src="therecruit.mp4" type="video/mp4">  
-              </video>
-              <span class="tooltiptext">The Recruit Trailer (Series) 2022</span>
-               </div>
+                $(document).ready(function(){
+  $("#hide").click(function(){
+    $("li").hide();
+  });
+  $("#show").click(function(){
+    $("li").show();
+  });
+});
+              </script>
            
-           
-            <div class="tooltip">
-              <video  width="225" height="150" controls loop>
-               <source src="velma.mp4" type="video/mp4">  
-              </video>
-              <span class="tooltiptext">Velma Trailer (Series) 2022</span>
-               </div>
-           
-  
-                <div class="tooltip">
-                  <video  width="225" height="150" controls loop>
-                   <source src="reginald.mp4" type="video/mp4">  
-                  </video>
-                  <span class="tooltiptext">Reginald The Vampire Trailer (Series) 2022</span>
-                   </div>
-           
-          
-            <div class="tooltip">
-              <video  width="225" height="150" controls loop>
-              <source src="lastofus.mp4" type="video/mp4">  
-             </video>
-             <span class="tooltiptext">The Last Of Us Trailer (Series) 2022</span>
-              </div>
-        </div>
+         
+      </div>
     </div> 
-    <div class="background" style="float:left; width: 100%;">
+  </div>
+    <div class="background" style=" float: left; width: 100%;">
             Movies  <!-- Set Div As your requirement -->
             </div>
-            <div class = "left">
-                <div class="clearfix">
-         <div class="tooltip">
-             <video  width="225" height="150" controls loop>
-            <source src="exp.mp4" type="video/mp4">
-            </video>
-            <span class="tooltiptext">Expendables 4 Trailer 2022</span>
-            </div>
- 
-             <div class="tooltip">
-             <video  width="225" height="150" controls loop> 
-              <source src="disen.mp4" type="video/mp4">
-             </video> 
-             <span class="tooltiptext">Disenchanted Trailer 2022</span>
-               </div>
-
-               <div class="tooltip">
-                <video  width="225" height="150" controls loop>
-                 <source src="mindcage.mp4" type="video/mp4">  
-                </video>
-                <span class="tooltiptext">Mindcage Trailer 2022</span>
-                 </div>
-
-                 <div class="tooltip">
-                  <video  width="225" height="150" controls loop>
-                   <source src="johnwick4.mp4" type="video/mp4">  
-                  </video>
-                  <span class="tooltiptext">John Wick Chapter 4 Trailer 2022</span>
+            <div class = "left1">
+              <div class="clearfix">
+                <div class="tooltip">
+                    <video  width="215" height="150" controls loop>
+                   <source src="exp.mp4" type="video/mp4">
+                   </video>
+                   <span class="tooltiptext">Expendables 4 Trailer 2022</span>
                    </div>
-      
-               <div class="tooltip">
-                <video  width="225" height="150" controls loop> 
-              <source src="antman.mp4" type="video/mp4">  
-              </video>
-              <span class="tooltiptext">Antman & The Wasp: Quantumania Trailer 2022</span>
-               </div>
-                  
-               <div class="tooltip">
-                <video  width="225" height="150" controls loop> 
-                 <source src="savage.mp4" type="video/mp4">
-                </video> 
-                <span class="tooltiptext">Savage Salvation Trailer 2022</span>
-                  </div>
- 
-                  <div class="tooltip">
-                    <video  width="225" height="150" controls loop>
-                     <source src="pale.mp4" type="video/mp4">  
-                    </video>
-                    <span class="tooltiptext">The Pale Blue Eye Trailer 2022</span>
-                     </div>
-                         </div>
+        
+                    <div class="tooltip">
+                    <video  width="215" height="150" controls loop> 
+                     <source src="disen.mp4" type="video/mp4">
+                    </video> 
+                    <span class="tooltiptext">Disenchanted Trailer 2022</span>
+                      </div>
+       
+                      <div class="tooltip">
+                       <video  width="215" height="150" controls loop>
+                        <source src="mindcage.mp4" type="video/mp4">  
+                       </video>
+                       <span class="tooltiptext">Mindcage Trailer 2022</span>
                         </div>
-</body>
-</html>
+       
+                        <div class="tooltip">
+                         <video  width="215" height="150" controls loop>
+                          <source src="johnwick4.mp4" type="video/mp4">  
+                         </video>
+                         <span class="tooltiptext">John Wick Chapter 4 Trailer 2022</span>
+                          </div>
+             
+                      <div class="tooltip">
+                       <video  width="215" height="150" controls loop> 
+                     <source src="antman.mp4" type="video/mp4">  
+                     </video>
+                     <span class="tooltiptext">Antman & The Wasp: Quantumania Trailer 2022</span>
+                      </div>
+                         
+                      <div class="tooltip">
+                       <video  width="215" height="150" controls loop> 
+                        <source src="savage.mp4" type="video/mp4">
+                       </video> 
+                       <span class="tooltiptext">Savage Salvation Trailer 2022</span>
+                         </div>
+        
+                         <div class="tooltip">
+                           <video  width="215" height="150" controls loop>
+                            <source src="pale.mp4" type="video/mp4">  
+                           </video>
+                           <span class="tooltiptext">The Pale Blue Eye Trailer 2022</span>
+                            </div>
+                            </div>
+                            </div>
+                            <div class = "left">
+                            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+                            <div class="photos-list">
+                              <ul>
+                          
+                            <li class="hidden"> <video  width="215" height="150" controls loop>
+                              <source src="wolfpack.mp4" type="video/mp4">  
+                             </video></li>
+                          <li class="hidden"> <video  width="215" height="150" controls loop>
+                            <source src="kindred.mp4" type="video/mp4">  
+                           </video></li>
+                          <li class="hidden"> <video  width="215" height="150" controls loop>
+                            <source src="lastofus.mp4" type="video/mp4">  
+                           </video></li>
+                          <li class="hidden"> <video  width="215" height="150" controls loop>
+                            <source src="reginald.mp4" type="video/mp4">  
+                           </video></li>
+                          <li class="hidden"> <video  width="215" height="150" controls loop>
+                            <source src="kindred.mp4" type="video/mp4">  
+                           </video></li>
+                          <li class="hidden"> <video  width="215" height="150" controls loop>
+                              <source src="lastofus.mp4" type="video/mp4">  
+                             </video></li>
+                          <li class="hidden"> <video  width="215" height="150" controls loop>
+                            <source src="reginald.mp4" type="video/mp4">  
+                           </video></li>
+                           </ul>
+                           </div>
+                           </div>
+                           </div>
+                           </div>
+       </body>
+       </html>
