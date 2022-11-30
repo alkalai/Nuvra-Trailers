@@ -1,0 +1,71 @@
+*  {
+    box-sizing: border-box;
+    margin: auto;
+    padding: 10px;
+    font-family: 'Kumbh Sans' , sans-serif;
+    scroll-behavior: smooth;
+    color:#61c192;
+  }
+  
+  .nuvra {
+    display: flex;
+    font-size: 100px;
+    background: -webkit-linear-gradient(to right, #12c2e9, #c471ed, #f64f59); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #12c2e9 0%, #c471ed 50%, #f64f59 100%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent; 
+    text-align: right;
+    padding:50px;
+    
+  }
+  
+  .background {
+    background: #000000;
+    background: linear-gradient(to right, #000000, #000000);
+    padding: 0px 0;
+    font-size: 25px;
+    text-align: center;
+  }
+
+  
+  
+  #bottomtext {
+  color: white;
+  font-size: 20px;
+  align-self: center;
+  }
+  
+  .tooltip {
+  position: relative;
+  display: block;
+  margin-bottom: 20px;
+  
+  }
+  
+  .tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 50%;
+  margin-left: -60px;
+  }
+  
+  .tooltip:hover .tooltiptext {
+  visibility: visible;
+  }
+  body {
+  font-family:  Arial, Helvetica, sans-serif;
+  background-color: #000000;
+  color: #fff;
+  line-height: 1.6;
+  
+  }
