@@ -26,7 +26,7 @@
   background: linear-gradient(to right, #000000, #000000);
   padding: 0px 0;
   text-align: center;
-  font-size: 25px;
+  font-size: 35px;
 }
 
 
@@ -40,6 +40,7 @@ align-self: center;
 position: relative;
 display: inline-block;
 margin-bottom: 0px;
+
 
 }
 
@@ -68,55 +69,14 @@ color: #fff;
 line-height: 1.6;
 
 }
-.left1 { float:right; padding-right: 65px ;}
+.left1 { float:right; padding-right: 65px;}
 .left {  padding-right: 130px  }
 .right {  padding-left: 55px;}
 .right1 {  padding-right: 130px  }
 .nuvra { padding-left: 600px}
 
-p { color:#000000;
-    font-size: 0px;
-    }
-    .photos-list ul,
-.videos-list ul {
-margin: 0px;
-padding: 0px;
-}
 
-.photos-list ul li,
-.videos-list ul li {
-list-style: none;
-float: right;
-width: 13%;
-margin: 3px;
-position: relative;
-}
 
-.photos-list ul li img,
-.videos-list ul li img {
-width: 100%;
-border-radius: 10px;
-height: 110px;
-}
-
-.photos-list ul li span,
-.videos-list ul li span {
-position: relative;
-bottom: 0;
-right: 0;
-background: rgba(0, 0, 0, .5);
-padding: 25px 15px;
-cursor: pointer;
-}
-
-.photos-list ul li span svg,
-.videos-list ul li span svg {
-color: #000000;
-}
-
-.hidden {
-display: none;
-}
 .centerize {
 
 margin: 0 auto;
@@ -124,3 +84,5 @@ text-align: center;
 -webkit-text-fill-color: #000000;
 
 }
+
+
